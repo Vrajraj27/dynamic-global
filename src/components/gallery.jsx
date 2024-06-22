@@ -8,8 +8,8 @@ export const Gallery = (props) => {
         <div className="section-title">
           <h2>Gallery</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed
-            dapibus leonec.
+            <b>Dynamic Global</b>: Crafted Copper for a Healthy Hydration
+            Experience.
           </p>
         </div>
         <div className="row">

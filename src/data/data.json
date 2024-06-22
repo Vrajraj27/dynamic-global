@@ -1,184 +1,160 @@
 {
   "Header": {
-    "title": "We are a Landing Page",
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum."
+    "title": "Dynamic Global",
+    "paragraph": "Welcome To Dynamic Global, A Leading Manufacturer Of High-Quality Copper Bottles."
   },
   "About": {
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "paragraph": "At Dynamic Global, we're passionate about crafting high-quality copper bottles designed to elevate your hydration experience. We meticulously manufacture our bottles using pure copper, ensuring you reap the natural health benefits this time-tested material offers. From sleek and stylish designs to durable construction, our copper bottles are the perfect blend of form and function. Join the Dynamic Global movement and discover the difference a copper bottle can make.",
     "Why": [
-      "Lorem ipsum dolor",
-      "Tempor incididunt",
-      "Lorem ipsum dolor",
-      "Incididunt ut labore"
+      "Unmatched Quality",
+      "Natural Wellness",
+      "Sustainable Choice",
+      "Style Meets Function"
     ],
     "Why2": [
-      "Aliquip ex ea commodo",
-      "Lorem ipsum dolor",
-      "Exercitation ullamco",
-      "Lorem ipsum dolor"
+      "Durability You Can Trust",
+      "Globally Minded",
+      "Unwavering Commitment",
+      "Join the Movement"
     ]
   },
   "Gallery": [
     {
       "title": "Project Title",
-      "largeImage": "img/portfolio/01-large.jpg",
-      "smallImage": "img/portfolio/01-small.jpg"
+      "largeImage": "img/portfolio/g10.jpeg",
+      "smallImage": "img/portfolio/g10.jpeg"
     },
     {
       "title": "Project Title",
-      "largeImage": "img/portfolio/02-large.jpg",
-      "smallImage": "img/portfolio/02-small.jpg"
+      "largeImage": "img/portfolio/g11.jpeg",
+      "smallImage": "img/portfolio/g11.jpeg"
     },
     {
       "title": "Project Title",
-      "largeImage": "img/portfolio/03-large.jpg",
-      "smallImage": "img/portfolio/03-small.jpg"
+      "largeImage": "img/portfolio/g3.jpeg",
+      "smallImage": "img/portfolio/g3.jpeg"
     },
     {
       "title": "Project Title",
-      "largeImage": "img/portfolio/04-large.jpg",
-      "smallImage": "img/portfolio/04-small.jpg"
+      "largeImage": "img/portfolio/g4.jpeg",
+      "smallImage": "img/portfolio/g4.jpeg"
     },
     {
       "title": "Project Title",
-      "largeImage": "img/portfolio/05-large.jpg",
-      "smallImage": "img/portfolio/05-small.jpg"
+      "largeImage": "img/portfolio/g5.jpeg",
+      "smallImage": "img/portfolio/g5.jpeg"
     },
     {
       "title": "Project Title",
-      "largeImage": "img/portfolio/06-large.jpg",
-      "smallImage": "img/portfolio/06-small.jpg"
+      "largeImage": "img/portfolio/g6.jpeg",
+      "smallImage": "img/portfolio/g6.jpeg"
     },
     {
       "title": "Project Title",
-      "largeImage": "img/portfolio/07-large.jpg",
-      "smallImage": "img/portfolio/07-small.jpg"
+      "largeImage": "img/portfolio/g7.jpeg",
+      "smallImage": "img/portfolio/g7.jpeg"
     },
     {
       "title": "Project Title",
-      "largeImage": "img/portfolio/08-large.jpg",
-      "smallImage": "img/portfolio/08-small.jpg"
+      "largeImage": "img/portfolio/g8.jpeg",
+      "smallImage": "img/portfolio/g8.jpeg"
     },
     {
       "title": "Project Title",
-      "largeImage": "img/portfolio/09-large.jpg",
-      "smallImage": "img/portfolio/09-small.jpg"
+      "largeImage": "img/portfolio/g9.jpeg",
+      "smallImage": "img/portfolio/g9.jpeg"
     }
   ],
   "Services": [
     {
-      "icon": "fa fa-wordpress",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-magic",
+      "name": "Post-Purchase Care",
+      "text": "Our commitment to your satisfaction goes beyond the sale. We offer helpful resources and guidance to ensure you get the most out of your Dynamic Global copper bottle."
     },
     {
       "icon": "fa fa-cart-arrow-down",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "name": "Seamless Delivery",
+      "text": " We prioritize a smooth and efficient delivery experience. From secure packaging to reliable shipping partners, we ensure your Dynamic Global copper bottle arrives quickly and safely."
     },
     {
-      "icon": "fa fa-cloud-download",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-comments-o",
+      "name": "Unwavering Support",
+      "text": "Our dedicated customer service department is here for you. We offer comprehensive support to answer your questions, address any concerns, and ensure you have a positive experience with Dynamic Global."
     },
     {
-      "icon": "fa fa-language",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-bullhorn",
+      "name": "Streamlined Ordering",
+      "text": "We've made ordering your Dynamic Global copper bottle simple and convenient. Our user-friendly platform allows you to browse our selection, choose your perfect bottle, and complete your purchase with ease."
     },
     {
       "icon": "fa fa-plane",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "name": "Worldwide Reach",
+      "text": "Goodness of copper bottles directly to your doorstep. We operate in a global market, Ensuring everyone can experience the benefits of our high-quality products"
     },
     {
       "icon": "fa fa-pie-chart",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "name": "Dedicated Departments",
+      "text": "Our expert teams work tirelessly across various departments to deliver exceptional service. From product development and quality control to sales and customer support, we're committed to exceeding your expectations."
     }
   ],
   "Testimonials": [
     {
       "img": "img/testimonials/01.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
+      "text": "\"Dynamic Global's copper bottles are a game-changer! The quality is unmatched, and I love the positive impact I'm having on the environment.\"",
+      "name": "Sir Jones, Yoga Instructor"
     },
     {
       "img": "img/testimonials/02.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
+      "text": "\"I never thought a copper bottle could make such a difference. Since using Dynamic Global's bottle, my water tastes fresher, and I feel more energized throughout the day.\"",
+      "name": "David Patel, Entrepreneur"
     },
     {
       "img": "img/testimonials/03.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
-    },
-    {
-      "img": "img/testimonials/04.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
-    },
-    {
-      "img": "img/testimonials/05.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
+      "text": "\"Dynamic Global's customer service is fantastic! They helped me choose the perfect copper bottle for my needs and were incredibly helpful with the entire process.\"",
+      "name": "Danyal Garcia, Nutritionist"
     },
     {
       "img": "img/testimonials/06.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
+      "text": "\"Finally, a copper bottle that's both stylish and functional! Dynamic Global's designs are beautiful, and the quality is top-notch.\"",
+      "name": "Michael Rossi, Fitness Model"
+    },
+    {
+      "img": "img/testimonials/04.jpg",
+      "text": "\"I travel constantly for work, and my Dynamic Global copper bottle goes everywhere with me. It's leak-proof, durable, and keeps my water ice cold for hours.\"",
+      "name": "Olivia Rodriguez, Businesswoman"
+    },
+    {
+      "img": "img/testimonials/05.jpg",
+      "text": "\"Dynamic Global is more than just a company; they're a movement. I'm proud to support a brand that's committed to sustainability and healthy living.\"",
+      "name": "John Lee, Environmentalist"
     }
   ],
   "Team": [
     {
-      "img": "img/team/01.jpg",
-      "name": "John Doe",
-      "job": "Director"
+      "img": "img/team/vatsal.jpeg",
+      "name": "Vatsal Sakhiya",
+      "job": "CEO"
     },
     {
-      "img": "img/team/02.jpg",
-      "name": "Mike Doe",
-      "job": "Senior Designer"
+      "img": "img/team/dhruv.jpeg",
+      "name": "Dhruv Akavaliya",
+      "job": "Managing Director"
     },
     {
-      "img": "img/team/03.jpg",
-      "name": "Jane Doe",
-      "job": "Senior Designer"
-    },
-    {
-      "img": "img/team/04.jpg",
-      "name": "Karen Doe",
-      "job": "Project Manager"
+      "img": "img/team/ridham.jpeg",
+      "name": "Ridham Vekariya",
+      "job": "Manufacturer"
     }
   ],
   "Contact": {
-    "address": "4321 California St, San Francisco, CA 12345 ",
-    "phone": "+1 123 456 1234",
-    "email": "info@company.com",
-    "facebook": "fb.com",
+    "address": "Honest Arcade, Opp.Kaneriya Oil Mill, Shapar Main Road,Shapar,Rajkot - 360024, Gujarat, India",
+    "phone": "+91 8128700871",
+    "phone2": "+91 9725837024",
+    "email": "contact.dynamicglobal@gmail.com",
+    "facebook": "https://www.facebook.com/dynamicglobal.20?mibextid=LQQJ4d",
+    "ig": "https://www.instagram.com/info.dynamicglobal?igsh=MTN3eTg2YjYyOHE2Zg==",
+    "whatsapp": "https://wa.me/+918128700871",
     "twitter": "twitter.com",
     "youtube": "youtube.com"
-  },
-  "Features": [
-    {
-      "icon": "fa fa-comments-o",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
-    },
-    {
-      "icon": "fa fa-bullhorn",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
-    },
-    {
-      "icon": "fa fa-group",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
-    },
-    {
-      "icon": "fa fa-magic",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
-    }
-  ]
+  }
 }

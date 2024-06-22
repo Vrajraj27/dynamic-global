@@ -1,7 +1,6 @@
 import { useState } from "react";
-import emailjs from "emailjs-com";
 import React from "react";
-
+// import nodemailer from "nodemailer";
 const initialState = {
   name: "",
   email: "",
@@ -15,25 +14,40 @@ export const Contact = (props) => {
     setState((prevState) => ({ ...prevState, [name]: value }));
   };
   const clearState = () => setState({ ...initialState });
-  
-  
-  const handleSubmit = (e) => {
+
+  const handleSubmit = async (e) => {
     e.preventDefault();
     console.log(name, email, message);
-    
-    {/* replace below with your own Service ID, Template ID and Public Key from your EmailJS account */ }
-    
-    emailjs
-      .sendForm("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", e.target, "YOUR_PUBLIC_KEY")
-      .then(
-        (result) => {
-          console.log(result.text);
-          clearState();
-        },
-        (error) => {
-          console.log(error.text);
-        }
-      );
+
+    // const transporter = await nodemailer.createTransport({
+    //   service: "gmail",
+    //   host: "smtp.gmail.com",
+    //   port: 587,
+    //   secure: false,
+    //   auth: {
+    //     user: "contact.dynamicglobal@gmail.com",
+    //     pass: "wjzr clqx vrla mpim",
+    //   },
+    // });
+
+    // // const emailHtml = require("../welcome.ejs");
+
+    // const mailOption = {
+    //   from: "contact.dynamicglobal@gmail.com",
+    //   to: email,
+    //   subject: "Welcome To Dynamic Global",
+    //   html: "welcome",
+    // };
+
+    // transporter.sendMail(mailOption).then(
+    //   (result) => {
+    //     console.log(result.text);
+    //     clearState();
+    //   },
+    //   (error) => {
+    //     console.log(error.text);
+    //   }
+    // );
   };
   return (
     <div>
@@ -114,6 +128,8 @@ export const Contact = (props) => {
                   <i className="fa fa-phone"></i> Phone
                 </span>{" "}
                 {props.data ? props.data.phone : "loading"}
+                <br />
+                {props.data ? props.data.phone2 : "loading"}
               </p>
             </div>
             <div className="contact-item">
@@ -135,13 +151,13 @@ export const Contact = (props) => {
                     </a>
                   </li>
                   <li>
-                    <a href={props.data ? props.data.twitter : "/"}>
-                      <i className="fa fa-twitter"></i>
+                    <a href={props.data ? props.data.ig : "/"}>
+                      <i className="fa fa-instagram"></i>
                     </a>
                   </li>
                   <li>
-                    <a href={props.data ? props.data.youtube : "/"}>
-                      <i className="fa fa-youtube"></i>
+                    <a href={props.data ? props.data.whatsapp : "/"}>
+                      <i className="fa fa-whatsapp"></i>
                     </a>
                   </li>
                 </ul>
@@ -153,9 +169,10 @@ export const Contact = (props) => {
       <div id="footer">
         <div className="container text-center">
           <p>
-            &copy; 2023 Issaaf Kattan React Land Page Template. Design by{" "}
-            <a href="http://www.templatewire.com" rel="nofollow">
-              TemplateWire
+            &copy; 2024 <b>Dynamic Global</b>
+            <br /> Design by{" "}
+            <a href="/" rel="nofollow">
+              Vrajraj Shekhada
             </a>
           </p>
         </div>
