@@ -1,6 +1,7 @@
 import { useState } from "react";
 import React from "react";
-// import nodemailer from "nodemailer";
+import emailjs from "emailjs-com";
+
 const initialState = {
   name: "",
   email: "",
@@ -8,6 +9,7 @@ const initialState = {
 };
 export const Contact = (props) => {
   const [{ name, email, message }, setState] = useState(initialState);
+  const [data, setData] = useState([]);
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -17,38 +19,38 @@ export const Contact = (props) => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+    console.log("🚀 ~ file: contact.jsx:23 ~ handleSubmit ~ e:", e.target);
     console.log(name, email, message);
+    emailjs
+      .sendForm(
+        "service_44qzfss",
+        "template_d1vajfz",
+        e.target,
+        "01ibnjbpV5L3OcjAt"
+      )
+      .then(
+        (result) => {
+          console.log(
+            "🚀 ~ file: contact.jsx:34 ~ handleSubmit ~ result:",
+            result
+          );
 
-    // const transporter = await nodemailer.createTransport({
-    //   service: "gmail",
-    //   host: "smtp.gmail.com",
-    //   port: 587,
-    //   secure: false,
-    //   auth: {
-    //     user: "contact.dynamicglobal@gmail.com",
-    //     pass: "wjzr clqx vrla mpim",
-    //   },
-    // });
-
-    // // const emailHtml = require("../welcome.ejs");
-
-    // const mailOption = {
-    //   from: "contact.dynamicglobal@gmail.com",
-    //   to: email,
-    //   subject: "Welcome To Dynamic Global",
-    //   html: "welcome",
-    // };
-
-    // transporter.sendMail(mailOption).then(
-    //   (result) => {
-    //     console.log(result.text);
-    //     clearState();
-    //   },
-    //   (error) => {
-    //     console.log(error.text);
-    //   }
-    // );
+          console.log(result.text);
+          addDataToExcel();
+          clearState();
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
   };
+
+  const addDataToExcel = () => {
+    const newData = [...data, { name, email, message }];
+    setData(newData);
+    localStorage.setItem("excelData", JSON.stringify(newData));
+  };
+
   return (
     <div>
       <div id="contact">
@@ -67,6 +69,7 @@ export const Contact = (props) => {
                   <div className="col-md-6">
                     <div className="form-group">
                       <input
+                        value={name}
                         type="text"
                         id="name"
                         name="name"
@@ -81,6 +84,7 @@ export const Contact = (props) => {
                   <div className="col-md-6">
                     <div className="form-group">
                       <input
+                        value={email}
                         type="email"
                         id="email"
                         name="email"
@@ -95,6 +99,7 @@ export const Contact = (props) => {
                 </div>
                 <div className="form-group">
                   <textarea
+                    value={message}
                     name="message"
                     id="message"
                     className="form-control"
@@ -106,7 +111,11 @@ export const Contact = (props) => {
                   <p className="help-block text-danger"></p>
                 </div>
                 <div id="success"></div>
-                <button type="submit" className="btn btn-custom btn-lg">
+                <button
+                  type="submit"
+                  className="btn btn-custom btn-lg"
+                  // onClick={handleSubmit}
+                >
                   Send Message
                 </button>
               </form>
