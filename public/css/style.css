@@ -215,6 +215,16 @@ a:focus,
   background-size: cover;
   -o-background-size: cover;
 }
+@media (max-width: 768px) {
+  .intro {
+    background: url("../img/intro.jpeg") center center no-repeat;
+    background-color: #e5e5e5;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+  }
+}
 .intro .overlay {
   background: rgba(0, 0, 0, 0.2);
 }
